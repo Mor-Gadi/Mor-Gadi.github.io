@@ -12,6 +12,11 @@
 	</script>
   </head>
 <body>
+	<script>
+ttq.identify({
+    email:<?php echo $_POST["email"]; ?>,
+})
+
 Thank you for signing, additional details will be sent to: <?php echo $_POST["email"]; ?><br>
 </body>
 </html>
