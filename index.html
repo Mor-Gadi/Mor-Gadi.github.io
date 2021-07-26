@@ -42,7 +42,8 @@ style="display: block;
            font-size: 20px;
             line-height: 20px;
 	text-decoration: none;" >For additional details please sign below</h1> 
-<form action="/details.php" method="post" style="
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"
+style="
     width: 300px;
     color: gray;
     font-family: arial;">
