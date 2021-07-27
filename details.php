@@ -1,4 +1,9 @@
 
+?php
+    $email = $_POST['email'];
+    syslog(LOG_INFO, "$email");
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
